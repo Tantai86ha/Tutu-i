@@ -4,11 +4,11 @@ local PhantomForcesWindow = Library:NewWindow("Fix lag")
  
 local KillingCheats = PhantomForcesWindow:NewSection("bật fix lag")
  
-KillingCheats:CreateButton("Antilag", function()
+KillingCheats:CreateButton("on", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/MakeMenu/refs/heads/main/mainv1.lua.txt"))()
 end)
  
-KillingCheats:CreateButton("Antilag", function()
+KillingCheats:CreateButton("on", function()
   local ToDisable = {
 	Textures = true,
 	VisualEffects = true,
